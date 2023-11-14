@@ -1,7 +1,15 @@
 /****** General ***********/
-* {
+body {
     font-family: 'Raleway', sans-serif;
-}
+    display: flex;
+    justify-content: center;
+    width: f1440px;
+    height: 1,831.02px;
+    top: 188px;
+    Left : 1599px;
+    }
+    
+
 
 :root {
     --main-color: #0065FC;
@@ -13,10 +21,6 @@
     color: var(--main-color);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
 
 .main-container {
     width: 100%;
@@ -29,6 +33,53 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 79px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 68px;
+    width: 344px;
+    height: 35px;
+    left: 1096px;
+    padding: 0px, 50px, 0px, 50px;
+ 
+}
+
+.logo {
+    width: 
+    61.09px; 
+    height: 19px;
+    top: 30px;
+    left: 50px;
+}
+
+.testcolor {
+    color: #0065FC;
+    width: 113px;
+    height: 35px;
+}
+
+.testcolor:hover {
+    border-width: 2px 0px 0px 0px;
+    border-color: #0065FC; 
+    border-style: solid;
+    color: #0065FC;
+    width: 113px;
+    height: 35px;
+}
+
 
 .section-title {
     margin: 0;
