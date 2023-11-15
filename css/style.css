@@ -3,10 +3,8 @@ body {
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
-    width: f1440px;
-    height: 1,831.02px;
-    top: 188px;
-    Left : 1599px;
+    width: 1440px;
+    height: 1722.02px;
     }
     
 
@@ -40,7 +38,6 @@ header {
     justify-content: space-between;
     width: 1440px;
     height: 79px;
-    margin-bottom: 20px;
     align-items: center;
 }
 
@@ -58,8 +55,7 @@ nav {
 }
 
 .logo {
-    width: 
-    61.09px; 
+    width: 61.09px; 
     height: 19px;
     top: 30px;
     left: 50px;
@@ -79,6 +75,192 @@ nav {
     width: 113px;
     height: 35px;
 }
+
+#headerfooter { 
+    display: block;
+    width: 1340px;
+    height: 281px;
+    gap: 35px;
+    
+}
+
+#contenttxt {
+    display: block;
+    width: 1,340px;
+    height: 53px;
+    gap: 8px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    gap: 35px;
+}
+
+#formulaire {
+    display: flex;
+    align-items: center;
+    height: 49px;
+    border-radius: 15px;
+    gap: 24px ;
+    margin-top: 40px;
+
+}
+
+#logobox {
+    width: 50px;
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fa-location-dot {
+    color: black;
+    display: flex;
+    align-items: center; 
+}
+
+
+
+input {
+    
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 21.13px;
+    border: none;
+    
+      
+}
+
+input::placeholder {
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    color: black;
+}
+
+input[type='submit'] {
+    background-color: #0065FC;
+    color: white;
+    width: 132px;
+    height: 49px;
+    border: 1px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px 15px 16px;
+
+}
+
+#filterbar {
+    font-weight: bold;
+    width: 758px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Filtres {
+    color: black;
+    width: 54px;
+    height: 21px;
+    size: 18px;
+    line-height: 21.13px;
+    font-weight: 700;
+}
+
+.filter-eco {
+    width: 173px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-eco:hover {
+    background-color: #DEEBFF;
+}
+
+.filter-Family {
+    width: 134px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-Family:hover {
+    background-color: #DEEBFF;
+}
+
+.filter-love {
+    width: 170px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-love:hover {
+    background-color: #DEEBFF;
+}
+
+.filter-fire {
+    width: 167px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-fire:hover {
+    background-color: #DEEBFF;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+
+
+
 
 
 .section-title {
