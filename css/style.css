@@ -31,6 +31,10 @@ a {
     text-decoration: none;
 }
 
+.afficherplus {
+    font-size: 18px;
+    font-weight: bold;
+}
 
 header {
     display:flex;
