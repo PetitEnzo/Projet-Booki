@@ -26,9 +26,13 @@ body {
     box-sizing: border-box;
 }
 
-a {
+ a {
     color: inherit;
     text-decoration: none;
+}
+
+.hebergements a {
+    
 }
 
 .afficherplus {
@@ -101,9 +105,20 @@ h1 {
     gap: 35px;
 }
 
+h2 {
+
+}
+
+
+
 h3 {
     margin-block-start: 0em;
     margin-block-end: 0em;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 0px;
 }
 
 #formulaire {
@@ -332,10 +347,11 @@ input[type='submit'] {
     width: 65%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .hebergements-title {
-   
+   margin-bottom: 15px;
 }
 
 .ligne-hebergements {
@@ -343,7 +359,7 @@ input[type='submit'] {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    margin: 15px 0;
 }
 
 .hebergements .ligne-hebergements a .card {
@@ -351,7 +367,6 @@ input[type='submit'] {
     flex-direction: column;
     width: 250px;
     height: 207px;
-    margin-top: 30px;
 }
 
 .hebergements .ligne-hebergements a .card img {
@@ -382,6 +397,10 @@ input[type='submit'] {
     margin-bottom: 5px;
 }
 
+.hebergements .affichertxtbox {
+   margin: 15px 15px 16px 15px;
+    
+}
 
 
 
@@ -390,6 +409,7 @@ input[type='submit'] {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    margin-bottom: 35px;
 }
 
 .populaires-title {
@@ -432,6 +452,76 @@ input[type='submit'] {
     margin-bottom: 5px;
 }
 
+
+/****** activités ***********/
+
+.Activités-à-Marseille {
+    margin : 0 15px;
+}
+
+.Activités-title {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.Ligne-Activités {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+
+
+.Activités-à-Marseille .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 0px;
+    
+}
+
+.Activités-à-Marseille img {
+    width: 100%;
+    height: 380px;
+    width: 297px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+}
+
+.Activités-à-Marseille .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 0px 15px;
+}
+
+.Activités-à-Marseille .card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/****** Footer ***********/
+
+footer {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+}
+
+footer a {
+    margin: 15px 0;
+}
+
+.footer-content {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
 
 
 
