@@ -530,6 +530,7 @@ footer a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   .main-container {
+    overflow-x: hidden;
     padding: 0;
   }
 
@@ -542,6 +543,7 @@ footer a {
   nav {
     width: 100%;
     margin: 0;
+    gap: 0px;
   }
 
   nav a {
@@ -564,6 +566,13 @@ footer a {
     color: #0065fc;
   }
 
+  .navlink {
+    padding-bottom: 8px;
+    border-width: 0px 0px 2px 0px;
+    border-color: #f2f2f2;
+    border-style: solid;
+  }
+
   #headerfooter {
     margin: 10px;
   }
@@ -574,6 +583,10 @@ footer a {
 
   input {
     width: 75%;
+  }
+
+  #buttonfilters {
+    gap: 3px;
   }
 
   #searchButton {
@@ -656,6 +669,5 @@ footer a {
 
   .footer-content {
     width: 100%;
-    padding: 10px;
   }
 }
