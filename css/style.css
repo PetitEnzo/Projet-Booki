@@ -122,7 +122,7 @@ form {
 }
 
 #logobox {
-  width: 50px;
+  width: 5%;
   border: 1px solid #f2f2f2;
   border-radius: 15px 0px 0px 15px;
   background-color: #f2f2f2;
@@ -138,6 +138,7 @@ form {
 }
 
 input {
+  width: 50%;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -152,6 +153,7 @@ input::placeholder {
 }
 
 button[type="submit"] {
+  width: 45%;
   font-family: "Raleway";
   font-weight: bold;
   font-size: 18px;
@@ -161,6 +163,10 @@ button[type="submit"] {
   height: 100%;
   border: 1px;
   border-radius: 0px 15px 15px 0px;
+}
+
+#searchButton {
+  display: none;
 }
 
 #filterbar {
@@ -259,7 +265,6 @@ button[type="submit"] {
 }
 
 .hebergements-and-populaires section {
-  background-color: var(--main-bg-color);
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -271,6 +276,7 @@ button[type="submit"] {
   display: flex;
   flex-direction: column;
   margin-bottom: 35px;
+  background-color: #f2f2f2;
 }
 
 .hebergements-title {
@@ -332,6 +338,7 @@ button[type="submit"] {
 .populaires {
   width: 32%;
   margin-bottom: 35px;
+  background-color: #f2f2f2;
 }
 
 .populaires-title {
@@ -493,7 +500,6 @@ footer a {
   }
 
   .Ligne-Activités {
-    height: 270px;
   }
 
   .activity-marseille a {
@@ -523,5 +529,133 @@ footer a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  .main-container {
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  nav {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .logo {
+    justify-self: center;
+    margin-top: 15px;
+  }
+
+  .navlink:hover,
+  .navlink.activ {
+    padding-bottom: 8px;
+    border-width: 0px 0px 2px 0px;
+    border-color: #0065fc;
+    border-style: solid;
+    color: #0065fc;
+  }
+
+  #headerfooter {
+    margin: 10px;
+  }
+
+  button[type="submit"] {
+    display: none;
+  }
+
+  input {
+    width: 75%;
+  }
+
+  #searchButton {
+    width: 13%;
+    background-color: #0065fc;
+    color: white;
+    border: 1px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: -13px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  }
+
+  .fa-magnifying-glass {
+    color: white;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+  }
+
+  .hebergements-and-populaires section {
+    border-radius: 0px;
+  }
+
+  .populaires {
+    background-color: #f2f2f2;
+  }
+
+  .populaires-card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .populaires-card a {
+    width: 100%;
+  }
+
+  .hebergements {
+    width: 100%;
+    background-color: white; /* Ajoutez cette ligne pour supprimer le fond coloré */
+    margin-bottom: 0;
+  }
+
+  .ligne-hebergements {
+    flex-direction: column;
+  }
+
+  .hebergements a {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .hebergements-card {
+    width: 100%;
+  }
+  .hebergements .affichertxtbox {
+    margin: -8px;
+  }
+
+  .activity-marseille .card {
+    flex-direction: column;
+  }
+
+  .Ligne-Activités {
+    flex-direction: column;
+  }
+
+  .Ligne-Activités a {
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    width: 100%;
+    padding: 10px;
+  }
 }
