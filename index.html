@@ -29,8 +29,8 @@
       <header>
         <img src="images/logo/Booki.png" alt="logo Booki" class="logo" />
         <nav>
-          <a class="testcolor" href="#">Hébergements</a>
-          <a href="#activités-à-Marseille">Activités</a>
+          <a class="navlink activ" href="#hebergements">Hébergements</a>
+          <a class="navlink" href="#activity-marseille">Activités</a>
         </nav>
         <!-- à completer une fois la partie Hebergement à marseille et Activités faites -->
       </header>
@@ -45,17 +45,16 @@
             <i class="fa-solid fa-location-dot"></i>
           </div>
           <form action="#" method="get">
-            <p>
-              <input
-                type="text"
-                name="villesearch"
-                id="villesearch"
-                placeholder="Marseille,France"
-                maxlength="30"
-              />
-            </p>
+            <input
+              type="text"
+              name="villesearch"
+              id="villesearch"
+              placeholder="Marseille,France"
+              maxlength="30"
+            />
+
+            <button type="submit">Rechercher</button>
           </form>
-          <input type="submit" value="Rechercher" />
         </div>
         <div id="filterbar">
           <p class="Filtres">Filtres</p>
@@ -82,7 +81,7 @@
 
       <main>
         <div class="hebergements-and-populaires">
-          <section class="hebergements">
+          <section class="hebergements" id="hebergements">
             <div class="hebergements-title">
               <h2 class="section-title">Hébergements à Marseille</h2>
             </div>
@@ -333,7 +332,7 @@
           </section>
         </div>
       </main>
-      <section class="Activités-à-Marseille">
+      <section class="activity-marseille" id="activity-marseille">
         <div class="Activités-title">
           <h2 class="section-title">Activités à Marseille</h2>
         </div>
