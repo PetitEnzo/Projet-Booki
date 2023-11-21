@@ -302,9 +302,9 @@ button[type="submit"] {
 .hebergements .ligne-hebergements a .card img {
   width: 100%;
   height: 113px;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 15px;
   border-bottom-left-radius: 0px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 15px;
   border-bottom-right-radius: 0px;
 }
 
@@ -352,8 +352,8 @@ button[type="submit"] {
 .populaires-card img {
   width: 33%;
   height: 140px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .populaires-card .card-content {
@@ -413,9 +413,9 @@ button[type="submit"] {
 .activity-marseille img {
   width: 100%;
   height: 286px;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 15px;
   border-bottom-left-radius: 0px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 15px;
   border-bottom-right-radius: 0px;
 }
 
@@ -620,7 +620,7 @@ footer a {
   }
 
   #buttonfilters {
-    gap: 3px;
+    column-gap: 6px;
   }
 
   #info p {
