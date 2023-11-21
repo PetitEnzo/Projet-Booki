@@ -20,7 +20,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
-  padding: 0;
+  padding: 0 50px;
   box-sizing: border-box;
 }
 
@@ -38,7 +38,6 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 79px;
 }
 
 nav {
@@ -55,9 +54,8 @@ nav a {
 .logo {
   width: 61.09px;
   height: 19px;
-  top: 30px;
-  left: 50px;
   align-self: center;
+  margin-top: 20px;
 }
 
 .navlink {
@@ -82,8 +80,7 @@ nav a {
 #contenttxt {
   display: block;
   width: 100%;
-  height: 53px;
-  gap: 8px;
+  margin-top: 45px;
 }
 
 h1 {
@@ -108,7 +105,6 @@ h4 {
   display: flex;
   height: 49px;
   border-radius: 15px;
-  margin-top: 40px;
 }
 
 form {
@@ -171,6 +167,7 @@ button[type="submit"] {
 }
 
 .Filtres {
+  font-size: 18px;
   display: flex;
   color: black;
   width: 54px;
@@ -549,8 +546,6 @@ footer a {
     display: flex;
     padding: 30px;
     gap: 10px;
-    height: 79px;
-    width: 121px;
     justify-self: center;
   }
 
@@ -570,27 +565,32 @@ footer a {
     border-style: solid;
   }
 
+  #contenttxt {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
   h1 {
     width: 100%;
     font-weight: 700;
     font-size: 22px;
     line-height: 25.83px;
-    margin-top: 65px;
+    margin: 5px;
   }
 
   #headerfooter {
-    margin-bottom: 20px; /*fusioner les marges puis test*/
-    margin-top: 20px;
-  }
-
-  #contenttxt {
-    margin-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
   }
 
   #formulaire {
     width: 100%;
-    margin-top: 110px;
-    margin-left: 24px; /*fusioner les marges puis test*/
   }
 
   #logobox {
@@ -614,11 +614,15 @@ footer a {
   }
 
   input {
-    width: 75%;
+    width: 100%;
   }
 
   #buttonfilters {
     column-gap: 6px;
+  }
+
+  .filter-button {
+    font-size: 14px;
   }
 
   #info p {
@@ -627,7 +631,7 @@ footer a {
   }
 
   #searchButton {
-    width: 13%;
+    width: 20%;
     background-color: #0065fc;
     color: white;
     border: 1px;
@@ -636,7 +640,7 @@ footer a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-left: -13px;
+    margin-left: -15px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   }
 
@@ -654,6 +658,8 @@ footer a {
 
   .populaires {
     background-color: #f2f2f2;
+    margin-top: 15px;
+    margin-bottom: 0;
   }
 
   .populaires-card {
@@ -662,6 +668,10 @@ footer a {
   }
   .populaires-card a {
     width: 100%;
+  }
+
+  .populaires-card .card {
+    margin-top: 15px;
   }
 
   .hebergements {
@@ -673,7 +683,7 @@ footer a {
   .ligne-hebergements {
     display: block;
     flex-direction: column;
-    margin: -24px 0 5px 0;
+    margin: 0;
   }
 
   .hebergements a {
@@ -700,12 +710,12 @@ footer a {
 
   .Ligne-Activités {
     flex-direction: column;
+    gap: 15px;
   }
 
   .Ligne-Activités a {
     width: 100%;
     height: 270px;
-    padding: 10px;
   }
 
   footer {
@@ -713,6 +723,8 @@ footer a {
   }
 
   .footer-content {
+    box-sizing: border-box;
     padding: 20px;
+    width: 100%;
   }
 }
