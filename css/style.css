@@ -29,9 +29,6 @@ a {
   text-decoration: none;
 }
 
-.hebergements a {
-}
-
 .afficherplus {
   font-size: 18px;
   font-weight: bold;
@@ -213,9 +210,6 @@ button[type="submit"] {
   flex-direction: row;
   align-items: center;
   gap: 10px;
-}
-
-#info p {
 }
 
 #info .fa-info {
@@ -494,9 +488,6 @@ footer a {
 
   .populaires-card .card-subtitle {
     font-size: 13px;
-  }
-
-  .Ligne-Activités {
   }
 
   .activity-marseille a {
