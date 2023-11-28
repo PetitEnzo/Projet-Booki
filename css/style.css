@@ -61,8 +61,7 @@ nav a {
   color: black;
 }
 
-.navlink:hover,
-.navlink.activ {
+.navlink:hover {
   border-width: 2px 0px 0px 0px;
   border-color: #0065fc;
   border-style: solid;
@@ -550,8 +549,7 @@ footer a {
     justify-self: center;
   }
 
-  .navlink:hover,
-  .navlink.activ {
+  .navlink:hover {
     padding-bottom: 8px;
     border-width: 0px 0px 2px 0px;
     border-color: #0065fc;
@@ -620,6 +618,7 @@ footer a {
 
   #buttonfilters {
     column-gap: 6px;
+    margin-left: 17%;
   }
 
   .filter-button {
